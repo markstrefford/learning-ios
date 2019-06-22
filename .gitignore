@@ -1,0 +1,4 @@
+*.pdf
+*.zip
+Assets/
+.DS_Store
