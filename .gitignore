@@ -2,3 +2,4 @@
 *.zip
 Assets/
 .DS_Store
+xcuserdata/
