@@ -58,6 +58,7 @@ class ViewController: UIViewController {
             questionLabel.text = allQuestions.list[questionNumber].questionText
             updateUI()
         } else {
+            scoreLabel.text = "Score: \(score)"
             let alert = UIAlertController(title: "Awesome!", message: "You've finished with the questions, would you like to try again?", preferredStyle: .alert)
             let restartAction = UIAlertAction(title: "Restart", style: .default) { (UIAlertAction) in
                 self.startOver()
