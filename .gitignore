@@ -1,4 +1,5 @@
 *.pdf
 *.zip
 Assets/
+Clima-iOS12-master/Pods/
 .DS_Store
